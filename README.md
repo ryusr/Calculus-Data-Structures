@@ -91,32 +91,6 @@ Search: O(m) where m = pattern length
 
 **Suitable for:** Computational assistant systems, pattern recognition
 
-## Usage Instructions
-
-### Installation
-```bash
-pip install numpy matplotlib
-```
-
-### Running the Code
-```python
-# Run section by section or run all
-python calculus_data_structures.py
-```
-
-### Usage Examples
-```python
-# Calculate integral with Array
-integral, x_vals, y_vals = riemann_sum(lambda x: x**2, 0, 2, 100)
-
-# Calculate derivative with Stack
-calc = DerivativeCalculator()
-derivative = calc.derivative_power_rule("3x^2")
-
-# Calculate Taylor Series with Queue
-approx_e = taylor_series_queue(1.0, 10)
-```
-
 ## Performance Comparison
 
 | Data Structure | Time Complexity | Space Complexity | Best Use Case |
